@@ -1,0 +1,36 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+  <title>166</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css"> 
+  <link rel="stylesheet" href="gamestyles.css">
+  <script src="game.js"> </script>
+  <!-- Including the neccessary bootstrap and CSS stylesheet. -->
+  <!-- Game.html has its own style sheet for the purpose of formatting the memorygame elements -->
+</head>
+
+<body>
+  <div id="main">
+    <div id="site_content">
+      <div id="content">
+          <div class="w3-bar w3-black">
+            <!-- Creates a div class for use with the w3css template, which shall format the navigation bar. -->
+            <a href="index.html" class="w3-bar-item w3-button w3-mobile">Home</a>
+            <a href="about.html" class="w3-bar-item w3-button w3-mobile">About</a>
+            <a href="game.html" class="w3-bar-item w3-button w3-mobile">Memory Game</a>
+            <a href="lights.html" class="w3-bar-item w3-button w3-mobile">Lights Key</a>
+            <!-- Sets up each bar to keep a button, which will link to a html file. -->
+          </div>
+        </div>
+        <div id="game"></div>
+        <script>GameStart();</script> <!-- Runs the function that will generate a new Game board from game.js -->
+      </div>
+        <p></p>
+        <p></p>
+        <p></p>
+      </div>
+    </div>
+ </body>
+</html>
